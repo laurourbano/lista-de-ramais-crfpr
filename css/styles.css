@@ -57,8 +57,7 @@ button.input:hover{
 .trash:hover{
     background-color:#c9513f;
 }
-.contato {
-    border-bottom: 1px solid darkslategrey;
+#contato {
     margin: 5px 0;
 }
 span {
