@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRUD</title>
+  <title>LISTA DE RAMAIS | CRF-PR</title>
   <link rel="stylesheet" href="style.css">
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -13,7 +13,7 @@
 <body>
   <div class="container">
     <div class="header">
-      <span>Cadastro de Funcionários</span>
+      <span>Lista de ramais | CRF-PR</span>
       <button onclick="openModal()" id="new">Incluir</i></button>
     </div>
 
@@ -22,8 +22,8 @@
         <thead>
           <tr>
             <th>Nome</th>
-            <th>Função</th>
-            <th>Salário</th>
+            <th>Departamento</th>
+            <th>Ramal</th>
             <th class="acao">Editar</th>
             <th class="acao">Excluir</th>
           </tr>
@@ -39,10 +39,10 @@
           <label for="m-nome">Nome</label>
           <input id="m-nome" type="text" required />
   
-          <label for="m-funcao">Função</label>
+          <label for="m-funcao">Departamento</label>
           <input id="m-funcao" type="text" required />
   
-          <label for="m-salario">Salário</label>
+          <label for="m-salario">Ramal</label>
           <input id="m-salario" type="number" required />
           <button id="btnSalvar">Salvar</button>
         </form>
