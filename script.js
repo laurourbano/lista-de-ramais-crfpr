@@ -39,9 +39,14 @@ function editItem(index) {
 }
 
 function deleteItem(index) {
-  itens.splice(index, 1)
-  setItensBD()
-  loadItens()
+  result = confirm('Deseja realmente excluir?');
+  if(result==true){
+    itens.splice(index, 1);
+    setItensBD();
+    loadItens();
+  }else{
+    return
+  }
 }
 
 function insertItem(item, index) {
