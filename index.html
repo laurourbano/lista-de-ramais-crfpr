@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LISTA DE RAMAIS</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="telefone.png" type="image/x-icon">
   <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
@@ -21,9 +22,10 @@
       <table>
         <thead>
           <tr>
-            <th>Nome</th>
-            <th>Departamento</th>
-            <th>Ramal</th>
+            <th style="width: 10%;">Nome</th>
+            <th style="width: 30%;">Departamento</th>
+            <th style="width: 10%;">Ramal</th>
+            <th style="width: 30%;">E-mail</th>
             <th class="acao">Editar</th>
             <th class="acao">Excluir</th>
           </tr>
@@ -44,6 +46,9 @@
   
           <label for="m-ramal">Ramal</label>
           <input id="m-ramal" type="number" required />
+
+          <label for="m-email">E-mail</label>
+          <input id="m-email" type="email" required />
           <button id="btnSalvar">Salvar</button>
         </form>
       </div>

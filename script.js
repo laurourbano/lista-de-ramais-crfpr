@@ -3,6 +3,7 @@ const tbody = document.querySelector('tbody')
 const sNome = document.querySelector('#m-nome')
 const sDepartamento = document.querySelector('#m-departamento')
 const sRamal = document.querySelector('#m-ramal')
+const sEmail = document.querySelector('#m-email')
 const btnSalvar = document.querySelector('#btnSalvar')
 
 sNome = sNome.toUpperCase()
@@ -27,11 +28,13 @@ function openModal(edit = false, index = 0) {
     sNome.value = itens[index].nome
     sDepartamento.value = itens[index].departamento
     sRamal.value = itens[index].ramal
+    sEmail.value = itens[index].email
     id = index
   } else {
     sNome.value = ''
     sDepartamento.value = ''
     sRamal.value = ''
+    sEmail.value = ''
   }
   
 }
@@ -42,9 +45,14 @@ function editItem(index) {
 }
 
 function deleteItem(index) {
-  itens.splice(index, 1)
-  setItensBD()
-  loadItens()
+  result = confirm('Deseja realmente excluir?');
+  if(result==true){
+    itens.splice(index, 1);
+    setItensBD();
+    loadItens();
+  }else{
+    return
+  }
 }
 
 function insertItem(item, index) {
@@ -54,6 +62,7 @@ function insertItem(item, index) {
     <td>${item.nome}</td>
     <td>${item.departamento}</td>
     <td>${item.ramal}</td>
+    <td>${item.email}</td>
     <td class="acao">
       <button onclick="editItem(${index})"><i class='bx bx-edit' ></i></button>
     </td>
@@ -66,7 +75,7 @@ function insertItem(item, index) {
 
 btnSalvar.onclick = e => {
   
-  if (sNome.value == '' || sDepartamento.value == '' || sRamal.value == '') {
+  if (sNome.value == '' || sDepartamento.value == '' || sRamal.value == '' || sEmail.value == '') {
     return
   }
 
@@ -76,8 +85,9 @@ btnSalvar.onclick = e => {
     itens[id].nome = sNome.value
     itens[id].departamento = sDepartamento.value
     itens[id].ramal = sRamal.value
+    itens[id].email = sEmail.value
   } else {
-    itens.push({'nome': sNome.value, 'departamento': sDepartamento.value, 'ramal': sRamal.value})
+    itens.push({'nome': sNome.value, 'departamento': sDepartamento.value, 'ramal': sRamal.value, 'email': sEmail.value})
   }
 
   setItensBD()
