@@ -6,11 +6,6 @@ const sRamal = document.querySelector('#m-ramal')
 const sEmail = document.querySelector('#m-email')
 const btnSalvar = document.querySelector('#btnSalvar')
 
-sNome = sNome.toUpperCase()
-
-alert(sNome.value)
-
-
 
 let itens
 let id
@@ -59,10 +54,10 @@ function insertItem(item, index) {
   let tr = document.createElement('tr')
 
   tr.innerHTML = `
-    <td>${item.nome}</td>
-    <td>${item.departamento}</td>
+    <td>${item.nome.toUpperCase()}</td>
+    <td>${item.departamento.toUpperCase()}</td>
     <td>${item.ramal}</td>
-    <td>${item.email}</td>
+    <td>${item.email.toLowerCase()}</td>
     <td class="acao">
       <button onclick="editItem(${index})"><i class='bx bx-edit' ></i></button>
     </td>
