@@ -5,6 +5,12 @@ const sDepartamento = document.querySelector('#m-departamento')
 const sRamal = document.querySelector('#m-ramal')
 const btnSalvar = document.querySelector('#btnSalvar')
 
+sNome = sNome.toUpperCase()
+
+alert(sNome.value)
+
+
+
 let itens
 let id
 
