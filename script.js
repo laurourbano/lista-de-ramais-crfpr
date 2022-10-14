@@ -56,7 +56,7 @@ function insertItem(item, index) {
   tr.innerHTML = `
     <td>${item.nome.toUpperCase()}</td>
     <td>${item.departamento.toUpperCase()}</td>
-    <td>${item.ramal}</td>
+    <td>${Number(item.ramal)}</td>
     <td>${item.email.toLowerCase()}</td>
     <td class="acao">
       <button onclick="editItem(${index})"><i class='bx bx-edit' ></i></button>
