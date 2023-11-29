@@ -1,0 +1,393 @@
+{
+    "dados": [{
+        "GABINETE DA DIRETORIA": [{
+
+                "nome": "Nilze",
+                "ramal": "9544",
+                "email": "diretoria@crf-pr.org.br"
+            },
+            {
+                "nome": "Patricia",
+                "ramal": "9553",
+                "email": ""
+            },
+            {
+                "nome": "Rejane",
+                "ramal": "9542",
+                "email": "gabinete@crf-pr.org.br/presidencia@crf-pr.org.br"
+            }
+        ],
+        "COMUNICAÇÃO": [{
+                "nome": "Ana",
+                "ramal": "9563",
+                "email": "imprensa@crf-pr.org.br"
+            },
+            {
+                "nome": "Laura",
+                "ramal": "9561",
+                "email": "laura.santos@crf-pr.org.br"
+            },
+            {
+                "nome": "Michelly",
+                "ramal": "9560",
+                "email": "michelly.soares@crf-pr.org.br"
+            }
+        ],
+        "ASSESSORIA": [{
+                "nome": "Maria Augusta",
+                "ramal": "9557",
+                "email": "ac@crf-pr.org.br"
+            },
+            {
+                "nome": "Karine",
+                "ramal": "9540",
+                "email": "ouvidoria@crf-pr.org.br"
+            }
+        ],
+        "CADASTRO": [{
+                "nome": "Arindal",
+                "ramal": "9501",
+                "email": "arindal.junior@crf-pr.org.br"
+            },
+            {
+                "nome": "Celita",
+                "ramal": "",
+                "email": "celita.silva@crf-pr.org.br"
+            },
+            {
+                "nome": "Eduardo",
+                "ramal": "9506",
+                "email": "eduardo.shikasho@crf-pr.org.br"
+            },
+            {
+                "nome": "Flávia",
+                "ramal": "9510",
+                "email": "flavia.cadastro@crf-pr.org.br"
+            },
+            {
+                "nome": "Gabriele",
+                "ramal": "9520",
+                "email": "gabriele.pereira@crf-pr.org.br"
+            },
+            {
+                "nome": "Lauro",
+                "ramal": "9607",
+                "email": "lauro.urbano@crf-pr.org.br"
+            },
+            {
+                "nome": "Lourdes",
+                "ramal": "9606",
+                "email": "lourdes.pini@crf-pr.org.br"
+            },
+            {
+                "nome": "Melany",
+                "ramal": "9505",
+                "email": "melany.ribeiro@crf-pr.org.br"
+            },
+            {
+                "nome": "Rodrigo",
+                "ramal": "9508",
+                "email": "rodrigo.cadastro@crf-pr.org.br"
+            },
+            {
+                "nome": "Talita",
+                "ramal": "9504",
+                "email": "talita.fernandes@crf-pr.org.br"
+            },
+            {
+                "nome": "Thalles",
+                "ramal": "9507",
+                "email": "thalles.souza@crf-pr.org.br"
+            },
+            {
+                "nome": "Victória",
+                "ramal": "9503",
+                "email": "victoria.silva@crf-pr.org.br"
+            },
+            {
+                "nome": "Rafael",
+                "ramal": "9521",
+                "email": "rafael.cadastro@crf-pr.org.br"
+            },
+            {
+                "nome": "Sara",
+                "ramal": "9502",
+                "email": "sara.marasca@crf-pr.org.br"
+            },
+            {
+                "nome": "Sílvia",
+                "ramal": "9522",
+                "email": "silvia.cadastro@crf-pr.org.br"
+            },
+            {
+                "nome": "Lorena",
+                "ramal": "9501",
+                "email": "lorena.silva@crf-pr.org.br"
+            }
+        ],
+        "COBRANÇA": [{
+                "nome": "Guilherme",
+                "ramal": "9530",
+                "email": "cobranca@crf-pr.org.br"
+            },
+            {
+                "nome": "Luiz",
+                "ramal": "9532"
+            },
+            {
+                "nome": "Nilza",
+                "ramal": "9531"
+            },
+            {
+                "nome": "Sérgio",
+                "ramal": "9533"
+            }
+        ],
+        "Administrativo/Compras": [{
+                "nome": "Almir",
+                "ramal": "9603",
+                "email": "almir.rosa@crf-pr.org.br"
+            },
+            {
+                "nome": "Viviane",
+                "ramal": "9586",
+                "email": "viviane.possamai@crf-pr.org.br"
+            },
+            {
+                "nome": "Eluise",
+                "ramal": "9603",
+                "email": "eluise.caires@crf-pr.org.br"
+            },
+            {
+                "nome": "Hennir",
+                "ramal": "9534",
+                "email": "hennir.condore@crf-pr.org.br"
+            },
+            {
+                "nome": "Marissol",
+                "ramal": "9535",
+                "email": "marissol.alves@crf-pr.org.br"
+            },
+            {
+                "nome": "Ana Carolina",
+                "ramal": "9569",
+                "email": "ana.souza@crf-pr.org.br"
+
+            }
+        ],
+        "ÉTICA": [{
+                "nome": "Edneia",
+                "ramal": "9552",
+                "email": "etica@crf-pr.org.br"
+            },
+            {
+                "nome": "Fernanda",
+                "ramal": "9585",
+                "email": "fernanda.etica@crf-pr.org.br"
+            },
+            {
+                "nome": "Rayra",
+                "ramal": "9582",
+                "email": null
+            }
+        ],
+        "GERENTE GERAL": [{
+            "nome": "Edivar",
+            "ramal": "9512",
+            "email": "edivar.gomes@crf-pr.org.br"
+        }],
+        "PESSOAL": [{
+            "Ana": {
+                "RAMAL": "9541",
+                "E-MAIL": "ana.pereira@crf-pr.org.br"
+            }
+        }],
+        "JURÍDICO": {
+            "Vinícius": {
+                "RAMAL": "9574",
+                "E-MAIL": "juridico@crf-pr.org.br"
+            },
+            "Josiane": {
+                "RAMAL": "9573"
+            },
+            "Melissa": {
+                "RAMAL": "9570"
+            },
+            "Guilherme": {
+                "RAMAL": "9571"
+            }
+        },
+        "FISCALIZAÇÃO": {
+            "Douglas": {
+                "RAMAL": "9594",
+                "E-MAIL": "douglas.viegas@crf-pr.org.br"
+            },
+            "Karoline": {
+                "RAMAL": "9590",
+                "E-MAIL": "karoline.chuery@crf-pr.org.br"
+            },
+            "Orivaldo": {
+                "RAMAL": "9592",
+                "E-MAIL": "orivaldo.pinheiro@crf-pr.org.br"
+            },
+            "Patricia": {
+                "RAMAL": "9548",
+                "E-MAIL": "patricia.shiozawa@crf-pr.org.br"
+            },
+            "Tayná": {
+                "RAMAL": "9595",
+                "E-MAIL": "tayna.lima@crf-pr.org.br"
+            },
+            "Ygor": {
+                "RAMAL": "9592",
+                "E-MAIL": "ygor.eckstein@crf-pr.org.br"
+            },
+            "Camila": {
+                "RAMAL": "9548",
+                "E-MAIL": "camila.castro@crf-pr.org.br"
+            }
+        },
+        "FINANCEIRO": {
+            "Jéssica": {
+                "RAMAL": "9547",
+                "E-MAIL": "jessica.souza@crf-pr.org.br"
+            },
+            "Cristiane": {
+                "RAMAL": "9545",
+                "E-MAIL": "cristiane.bregenski@crf-pr.org.br"
+            },
+            "Maria Isabel": {
+                "RAMAL": "9546",
+                "E-MAIL": "maria.capel@crf-pr.org.br"
+            }
+        },
+        "GERENTE DE PLANEJAMENTO E CONTROLE INTERNO": {
+            "Eduarda": {
+                "RAMAL": "9608",
+                "E-MAIL": "eduarda.santos@crf-pr.org.br"
+            }
+        },
+        "TÉCNICO-CIENTÍFICO": {
+            "Jackson": {
+                "RAMAL": "9581",
+                "E-MAIL": "jackson.cim@crf-pr.org.br"
+            },
+            "Karin": {
+                "RAMAL": "9565",
+                "E-MAIL": "karin.cim@crf-pr.org.br"
+            },
+            "Rafaela": {
+                "RAMAL": "9580",
+                "E-MAIL": "rafaela.cim@crf-pr.org.br"
+            }
+        },
+        "T.I.": {
+            "HelpDesk": {
+                "RAMAL": "9511",
+                "E-MAIL": "helpdesk@crf-pr.org.br"
+            },
+            "Marcus": {
+                "RAMAL": "9601",
+                "E-MAIL": "marcus.ribeiro@crf-pr.org.br"
+            },
+            "Sander": {
+                "RAMAL": "9600",
+                "E-MAIL": "sanderval.santos@crf-pr.org.br"
+            }
+        },
+        "DIRETORIA": {
+            "Eduardo": {
+                "E-MAIL": "eduardo.valerio@crf-pr.org.br"
+            },
+            "Greyzel": {
+                "RAMAL": "9575",
+                "E-MAIL": "greyzel.benke@crf-pr.org.br"
+            },
+            "Márcio": {
+                "RAMAL": "9607",
+                "E-MAIL": "marcio.antoniassi@crf-pr.org.br"
+            },
+            "Valquíres": {
+                "RAMAL": "9576",
+                "E-MAIL": "valquires.godoy@crf-pr.org.br"
+            }
+        },
+        "FISCAIS": {
+            "Daiane": {
+                "NOME": "Daiane Perondi",
+                "E-MAIL": "daiane.perondi.crfpr@gmail.com",
+                "REGIÃO": "Toledo"
+            },
+            "Eduardo": {
+                "NOME": "Eduardo Freitas",
+                "E-MAIL": "eduardo.freitas.crfpr@gmail.com",
+                "REGIÃO": "Curitiba"
+            },
+            "Elias": {
+                "NOME": "Elias Montani",
+                "E-MAIL": "elias.montin.crfpr@gmail.com",
+                "REGIÃO": "Curitiba"
+            },
+            "Garcia": {
+                "NOME": "Edson Garcia",
+                "E-MAIL": "edson.garcia.crfpr@gmail.com",
+                "REGIÃO": "Londrina"
+            },
+            "Luciano": {
+                "NOME": "Luciano Gonçalves",
+                "E-MAIL": "luciano.goncalves.crfpr@gmail.com",
+                "REGIÃO": "Maringá"
+            },
+            "Marcelo": {
+                "NOME": "Marcelo Polak",
+                "E-MAIL": "marcelo.polak.crfpr@gmail.com",
+                "REGIÃO": "Curitiba"
+            },
+            "Nayana": {
+                "NOME": "Nayana Banha",
+                "E-MAIL": "nayana.banhara.crfpr@gmail.com",
+                "REGIÃO": "Curitiba"
+            },
+            "Pacola": {
+                "NOME": "José Paccola",
+                "E-MAIL": "jose.pacola.crfpr@gmail.com",
+                "REGIÃO": "Francisco Beltrão"
+            },
+            "Pazim": {
+                "NOME": "Eduardo Pazim",
+                "E-MAIL": "eduardo.pazim.crfpr@gmail.com",
+                "REGIÃO": "Curitiba"
+            },
+            "Ribamar": {
+                "NOME": "Ribamar Schmidt",
+                "E-MAIL": "ribamar.schmitz.crfpr@gmail.com",
+                "REGIÃO": "Ponta Grossa"
+            },
+            "Salem": {
+                "NOME": "Jorge Salem",
+                "E-MAIL": "jorge.salem.crfpr@gmail.com",
+                "REGIÃO": "Maringá"
+            },
+            "Silvio": {
+                "NOME": "Silvio Franchetti",
+                "E-MAIL": "silvio.franchetti.crfpr@gmail.com",
+                "REGIÃO": "Maringá"
+            },
+            "Siqueira": {
+                "NOME": "Edson Alves",
+                "E-MAIL": "edson.alves.crfpr@gmail.com",
+                "REGIÃO": "Cascavel"
+            },
+            "Welinson": {
+                "NOME": "Welinson Silva",
+                "E-MAIL": "welison.silva@crf-pr.org.br",
+                "REGIÃO": "Curitiba"
+            },
+            "Gláucio": {
+                "NOME": "Gláucio Rodrigues",
+                "E-MAIL": "glaucio.rodrigues.crfpr@gmail.com",
+                "REGIÃO": "Maringá"
+            }
+        }
+    }]
+}

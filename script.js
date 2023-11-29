@@ -102,7 +102,20 @@ function loadItens() {
 
 }
 
-const getItensBD = () => JSON.parse(localStorage.getItem('dbfunc')) ?? []
+const getItensDB = () => {
+  const xhr = new XMLHttpRequest();
+  xhr.open('GET', 'db.json');
+  xhr.onload = () => {
+    if (xhr.status === 200) {
+      const data = JSON.parse(xhr.responseText);
+      localStorage.setItem('dbfunc', JSON.stringify(data.dados));
+      loadItens();
+    } else {
+      console.error('Error loading data from db.json');
+    }
+  };
+  xhr.send();
+};
 const setItensBD = () => localStorage.setItem('dbfunc', JSON.stringify(itens))
 
 loadItens()
