@@ -1,121 +1,69 @@
-const sBusca = document.querySelector('#m-busca')
-const modal = document.querySelector('.modal-container')
-const tbody = document.querySelector('tbody')
-const sNome = document.querySelector('#m-nome')
-const sDepartamento = document.querySelector('#m-departamento')
-const sRamal = document.querySelector('#m-ramal')
-const sEmail = document.querySelector('#m-email')
-const btnSalvar = document.querySelector('#btnSalvar')
+const fetchData = async () => {
+  try {
+    const response = await fetch('db.json');
+    const data = await response.text();
+    const dataArray = JSON.parse(data);
 
+    const tableBody = document.querySelector('tbody');
 
-let itens
-let id
+    dataArray.forEach((item) => {
+      const row = document.createElement('tr');
 
-function openModal(edit = false, index = 0) {
-  modal.classList.add('active')
+      const nomeCell = document.createElement('td');
+      nomeCell.textContent = item.nome;
+      row.appendChild(nomeCell);
 
-  modal.onclick = e => {
-    if (e.target.className.indexOf('modal-container') !== -1) {
-      modal.classList.remove('active')
-    }
+      const departamentoCell = document.createElement('td');
+      departamentoCell.textContent = item.departamento;
+      row.appendChild(departamentoCell);
+
+      const ramalCell = document.createElement('td');
+      ramalCell.textContent = item.ramal;
+      row.appendChild(ramalCell);
+
+      const emailCell = document.createElement('td');
+      emailCell.textContent = item.email;
+      row.appendChild(emailCell);
+
+      const editarCell = document.createElement('td');
+      editarCell.innerHTML = `<button id="editar-${item.id}">Editar</button>`;
+      row.appendChild(editarCell);
+
+      const excluirCell = document.createElement('td');
+      excluirCell.innerHTML = `<button id="excluir-${item.id}">Excluir</button>`;
+      row.appendChild(excluirCell);
+
+      tableBody.appendChild(row);
+    });
+  } catch (error) {
+    console.error('Error fetching data:', error);
   }
-
-  if (edit) {
-    sNome.value = itens[index].nome
-    sDepartamento.value = itens[index].departamento
-    sRamal.value = itens[index].ramal
-    sEmail.value = itens[index].email
-    id = index
-  } else {
-    sNome.value = ''
-    sDepartamento.value = ''
-    sRamal.value = ''
-    sEmail.value = ''
-  }
-  
-}
-
-function editItem(index) {
-
-  openModal(true, index)
-}
-
-function deleteItem(index) {
-  result = confirm('Deseja realmente excluir?');
-  if(result==true){
-    itens.splice(index, 1);
-    setItensBD();
-    loadItens();
-  }else{
-    return
-  }
-}
-
-function insertItem(item, index) {
-  let tr = document.createElement('tr')
-
-  tr.innerHTML = `
-    <td>${item.nome.toUpperCase()}</td>
-    <td>${item.departamento.toUpperCase()}</td>
-    <td>${Number(item.ramal)}</td>
-    <td>${item.email.toLowerCase()}</td>
-    <td class="acao">
-      <button onclick="editItem(${index})"><i class='bx bx-edit' ></i></button>
-    </td>
-    <td class="acao">
-      <button onclick="deleteItem(${index})"><i class='bx bx-trash'></i></button>
-    </td>
-  `
-  tbody.appendChild(tr)
-}
-
-btnSalvar.onclick = e => {
-  
-  if (sNome.value == '' || sDepartamento.value == '' || sRamal.value == '' || sEmail.value == '') {
-    return
-  }
-
-  e.preventDefault();
-
-  if (id !== undefined) {
-    itens[id].nome = sNome.value
-    itens[id].departamento = sDepartamento.value
-    itens[id].ramal = sRamal.value
-    itens[id].email = sEmail.value
-  } else {
-    itens.push({'nome': sNome.value, 'departamento': sDepartamento.value, 'ramal': sRamal.value, 'email': sEmail.value})
-  }
-
-  setItensBD()
-
-  modal.classList.remove('active')
-  loadItens()
-  id = undefined
-}
-
-function loadItens() {
-  itens = getItensBD()
-  tbody.innerHTML = ''
-  itens.forEach((item, index) => {
-    insertItem(item, index)
-  })
-
-}
-
-const getItensDB = () => {
-  const xhr = new XMLHttpRequest();
-  xhr.open('GET', 'db.json');
-  xhr.onload = () => {
-    if (xhr.status === 200) {
-      const data = JSON.parse(xhr.responseText);
-      localStorage.setItem('dbfunc', JSON.stringify(data.dados));
-      loadItens();
-    } else {
-      console.error('Error loading data from db.json');
-    }
-  };
-  xhr.send();
 };
-const setItensBD = () => localStorage.setItem('dbfunc', JSON.stringify(itens))
 
-loadItens()
+fetchData();
+
+const modalContainer = document.querySelector('.modal-container');
+const modal = document.querySelector('.modal');
+
+const openModal = () => {
+  modalContainer.style.display = 'block';
+};
+
+const closeModal = () => {
+  modalContainer.style.display = 'none';
+};
+
+const btnSalvar = document.getElementById('btnSalvar');
+
+btnSalvar.addEventListener('click', (event) => {
+  event.preventDefault();
+
+  const nome = document.getElementById('m-nome').value;
+  const departamento = document.getElementById('m-departamento').value;
+  const ramal = document.getElementById('m-ramal').value;
+  const email = document.getElementById('m-email').value;
+
+  // Save data to db.json file
+
+  closeModal();
+});
