@@ -17,7 +17,7 @@
                 "email": "gabinete@crf-pr.org.br/presidencia@crf-pr.org.br"
             }
         ],
-        "COMUNICAÇÃO": [{
+        "COMUNICACAO": [{
                 "nome": "Ana",
                 "ramal": "9563",
                 "email": "imprensa@crf-pr.org.br"
@@ -60,7 +60,7 @@
                 "email": "eduardo.shikasho@crf-pr.org.br"
             },
             {
-                "nome": "Flávia",
+                "nome": "Flavia",
                 "ramal": "9510",
                 "email": "flavia.cadastro@crf-pr.org.br"
             },
@@ -100,7 +100,7 @@
                 "email": "thalles.souza@crf-pr.org.br"
             },
             {
-                "nome": "Victória",
+                "nome": "Victoria",
                 "ramal": "9503",
                 "email": "victoria.silva@crf-pr.org.br"
             },
@@ -115,7 +115,7 @@
                 "email": "sara.marasca@crf-pr.org.br"
             },
             {
-                "nome": "Sílvia",
+                "nome": "Silvia",
                 "ramal": "9522",
                 "email": "silvia.cadastro@crf-pr.org.br"
             },
@@ -125,7 +125,7 @@
                 "email": "lorena.silva@crf-pr.org.br"
             }
         ],
-        "COBRANÇA": [{
+        "COBRANCA": [{
                 "nome": "Guilherme",
                 "ramal": "9530",
                 "email": "cobranca@crf-pr.org.br"
@@ -139,11 +139,11 @@
                 "ramal": "9531"
             },
             {
-                "nome": "Sérgio",
+                "nome": "Sergio",
                 "ramal": "9533"
             }
         ],
-        "Administrativo/Compras": [{
+        "ADMINISTRATIVO/COMPRAS": [{
                 "nome": "Almir",
                 "ramal": "9603",
                 "email": "almir.rosa@crf-pr.org.br"
@@ -175,7 +175,7 @@
 
             }
         ],
-        "ÉTICA": [{
+        "ETICA": [{
                 "nome": "Edneia",
                 "ramal": "9552",
                 "email": "etica@crf-pr.org.br"
@@ -188,7 +188,7 @@
             {
                 "nome": "Rayra",
                 "ramal": "9582",
-                "email": null
+                "email": ""
             }
         ],
         "GERENTE GERAL": [{
@@ -202,8 +202,8 @@
                 "E-MAIL": "ana.pereira@crf-pr.org.br"
             }
         }],
-        "JURÍDICO": {
-            "Vinícius": {
+        "JURIDICO": {
+            "Vinicius": {
                 "RAMAL": "9574",
                 "E-MAIL": "juridico@crf-pr.org.br"
             },
@@ -217,7 +217,7 @@
                 "RAMAL": "9571"
             }
         },
-        "FISCALIZAÇÃO": {
+        "FISCALIZACAO": {
             "Douglas": {
                 "RAMAL": "9594",
                 "E-MAIL": "douglas.viegas@crf-pr.org.br"
@@ -234,7 +234,7 @@
                 "RAMAL": "9548",
                 "E-MAIL": "patricia.shiozawa@crf-pr.org.br"
             },
-            "Tayná": {
+            "Tayna": {
                 "RAMAL": "9595",
                 "E-MAIL": "tayna.lima@crf-pr.org.br"
             },
@@ -248,7 +248,7 @@
             }
         },
         "FINANCEIRO": {
-            "Jéssica": {
+            "Jessica": {
                 "RAMAL": "9547",
                 "E-MAIL": "jessica.souza@crf-pr.org.br"
             },
@@ -267,7 +267,7 @@
                 "E-MAIL": "eduarda.santos@crf-pr.org.br"
             }
         },
-        "TÉCNICO-CIENTÍFICO": {
+        "TECNICO-CIENTiFICO": {
             "Jackson": {
                 "RAMAL": "9581",
                 "E-MAIL": "jackson.cim@crf-pr.org.br"
@@ -303,11 +303,11 @@
                 "RAMAL": "9575",
                 "E-MAIL": "greyzel.benke@crf-pr.org.br"
             },
-            "Márcio": {
+            "Marcio": {
                 "RAMAL": "9607",
                 "E-MAIL": "marcio.antoniassi@crf-pr.org.br"
             },
-            "Valquíres": {
+            "Valquires": {
                 "RAMAL": "9576",
                 "E-MAIL": "valquires.godoy@crf-pr.org.br"
             }
@@ -316,77 +316,77 @@
             "Daiane": {
                 "NOME": "Daiane Perondi",
                 "E-MAIL": "daiane.perondi.crfpr@gmail.com",
-                "REGIÃO": "Toledo"
+                "REGIaO": "Toledo"
             },
             "Eduardo": {
                 "NOME": "Eduardo Freitas",
                 "E-MAIL": "eduardo.freitas.crfpr@gmail.com",
-                "REGIÃO": "Curitiba"
+                "REGIaO": "Curitiba"
             },
             "Elias": {
                 "NOME": "Elias Montani",
                 "E-MAIL": "elias.montin.crfpr@gmail.com",
-                "REGIÃO": "Curitiba"
+                "REGIaO": "Curitiba"
             },
             "Garcia": {
                 "NOME": "Edson Garcia",
                 "E-MAIL": "edson.garcia.crfpr@gmail.com",
-                "REGIÃO": "Londrina"
+                "REGIaO": "Londrina"
             },
             "Luciano": {
-                "NOME": "Luciano Gonçalves",
+                "NOME": "Luciano Goncalves",
                 "E-MAIL": "luciano.goncalves.crfpr@gmail.com",
-                "REGIÃO": "Maringá"
+                "REGIaO": "Maringa"
             },
             "Marcelo": {
                 "NOME": "Marcelo Polak",
                 "E-MAIL": "marcelo.polak.crfpr@gmail.com",
-                "REGIÃO": "Curitiba"
+                "REGIaO": "Curitiba"
             },
             "Nayana": {
                 "NOME": "Nayana Banha",
                 "E-MAIL": "nayana.banhara.crfpr@gmail.com",
-                "REGIÃO": "Curitiba"
+                "REGIaO": "Curitiba"
             },
             "Pacola": {
-                "NOME": "José Paccola",
+                "NOME": "Jose Pacola",
                 "E-MAIL": "jose.pacola.crfpr@gmail.com",
-                "REGIÃO": "Francisco Beltrão"
+                "REGIaO": "Francisco Beltrao"
             },
             "Pazim": {
                 "NOME": "Eduardo Pazim",
                 "E-MAIL": "eduardo.pazim.crfpr@gmail.com",
-                "REGIÃO": "Curitiba"
+                "REGIaO": "Curitiba"
             },
             "Ribamar": {
                 "NOME": "Ribamar Schmidt",
                 "E-MAIL": "ribamar.schmitz.crfpr@gmail.com",
-                "REGIÃO": "Ponta Grossa"
+                "REGIaO": "Ponta Grossa"
             },
             "Salem": {
                 "NOME": "Jorge Salem",
                 "E-MAIL": "jorge.salem.crfpr@gmail.com",
-                "REGIÃO": "Maringá"
+                "REGIaO": "Maringa"
             },
             "Silvio": {
                 "NOME": "Silvio Franchetti",
                 "E-MAIL": "silvio.franchetti.crfpr@gmail.com",
-                "REGIÃO": "Maringá"
+                "REGIaO": "Maringa"
             },
             "Siqueira": {
                 "NOME": "Edson Alves",
                 "E-MAIL": "edson.alves.crfpr@gmail.com",
-                "REGIÃO": "Cascavel"
+                "REGIaO": "Cascavel"
             },
             "Welinson": {
                 "NOME": "Welinson Silva",
                 "E-MAIL": "welison.silva@crf-pr.org.br",
-                "REGIÃO": "Curitiba"
+                "REGIaO": "Curitiba"
             },
-            "Gláucio": {
-                "NOME": "Gláucio Rodrigues",
+            "Glaucio": {
+                "NOME": "Glaucio Rodrigues",
                 "E-MAIL": "glaucio.rodrigues.crfpr@gmail.com",
-                "REGIÃO": "Maringá"
+                "REGIaO": "Maringa"
             }
         }
     }]
